@@ -48,7 +48,7 @@ class SplashActivity: BaseActivity() {
                 binding.progressbar.progress=i
                 delay(3)
             }
-            ShareUtil.putInfo("aa",false,this@SplashActivity)
+            ShareUtil.putMessage("aa","false",this@SplashActivity)
             startActivity(Intent(this@SplashActivity,MainActivity::class.java))
         }
     }
